@@ -11,7 +11,7 @@ import "./priceConverter.sol";
 error NotOwner();
 
 contract FundMe {
-    // import the PriceConverter library as a uint256 type
+    // import the PriceConverter library as a uint256 type fir
     using PriceConverter for uint256;
 
     mapping(address => uint256) public addressToAmountFunded;
